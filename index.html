@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HealthWise Student Health Information website for academic demonstration.">
+  <title>HealthWise | Student Health Information</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="HealthWise Home">Health<span>Wise</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Health Topics</a></li>
+        <li><a href="#tips">Health Tips</a></li>
+        <li><a href="#register">Registration</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">SCHOOL ACADEMIC PROJECT</p>
+        <h1>Health information made simple.</h1>
+        <p class="hero-text">
+          HealthWise provides easy-to-understand general health information,
+          practical wellness tips, and a demonstration registration form for students.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#topics">Explore Topics</a>
+          <a class="button secondary" href="#register">Register for a Topic</a>
+        </div>
+      </div>
+      <div class="health-card" aria-label="General health reminder">
+        <div class="heart-icon" aria-hidden="true">♥</div>
+        <h2>Take care of your health</h2>
+        <p>Small healthy habits can support your overall well-being.</p>
+        <span class="badge">General Information</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>What is HealthWise?</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            HealthWise is a school-based academic website created to demonstrate
+            web design, responsive layout, health-information presentation, and
+            custom form validation.
+          </p>
+          <p>
+            The intended audience is students, teachers, and other school community
+            members who want basic, reliable health information.
+          </p>
+        </div>
+        <div class="notice">
+          <strong>Important:</strong>
+          <p>
+            This website is for general educational information only. It is not a
+            substitute for advice, diagnosis, or treatment from a qualified health
+            professional.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="topics" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">HEALTH TOPICS</p>
+        <h2>Learn the basics</h2>
+        <p>These topics provide general information from trustworthy health organizations.</p>
+      </div>
+
+      <div class="topic-grid">
+        <article class="topic-card">
+          <div class="topic-icon">💧</div>
+          <h3>Hydration</h3>
+          <p>
+            Water is important for normal body functions. Needs vary depending on
+            factors such as activity, environment, age, and health.
+          </p>
+          <a href="https://www.cdc.gov/healthy-weight-growth/about/index.html" target="_blank" rel="noopener noreferrer">
+            Learn from CDC ↗
+          </a>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-icon">😴</div>
+          <h3>Healthy Sleep</h3>
+          <p>
+            Getting enough sleep supports physical health, emotional well-being,
+            attention, and everyday functioning. Recommended sleep amounts vary by age.
+          </p>
+          <a href="https://www.cdc.gov/sleep/about/index.html" target="_blank" rel="noopener noreferrer">
+            Learn from CDC ↗
+          </a>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-icon">🏃</div>
+          <h3>Physical Activity</h3>
+          <p>
+            Regular physical activity can support heart health, physical fitness,
+            and overall well-being. Choose activities that are appropriate for your age and abilities.
+          </p>
+          <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferrer">
+            Learn from WHO ↗
+          </a>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-icon">🧼</div>
+          <h3>Hand Hygiene</h3>
+          <p>
+            Washing hands with soap and water helps remove germs and can reduce the
+            spread of respiratory and other infections.
+          </p>
+          <a href="https://www.cdc.gov/clean-hands/about/index.html" target="_blank" rel="noopener noreferrer">
+            Learn from CDC ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="tips" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">HEALTH TIPS</p>
+        <h2>Simple everyday habits</h2>
+      </div>
+
+      <div class="tips-layout">
+        <div class="tips-list">
+          <div class="tip"><span>01</span><div><h3>Stay active</h3><p>Include safe, enjoyable movement in your routine.</p></div></div>
+          <div class="tip"><span>02</span><div><h3>Choose nutritious foods</h3><p>Aim for a balanced variety of foods and regular meals.</p></div></div>
+          <div class="tip"><span>03</span><div><h3>Get enough sleep</h3><p>Keep a consistent sleep routine when possible.</p></div></div>
+          <div class="tip"><span>04</span><div><h3>Practice good hygiene</h3><p>Wash your hands and follow appropriate hygiene practices.</p></div></div>
+        </div>
+
+        <aside class="resource-box">
+          <h3>Trusted resources</h3>
+          <p>For more detailed health information, visit:</p>
+          <ul>
+            <li><a href="https://www.who.int/health-topics" target="_blank" rel="noopener noreferrer">World Health Organization</a></li>
+            <li><a href="https://www.cdc.gov/" target="_blank" rel="noopener noreferrer">Centers for Disease Control and Prevention</a></li>
+            <li><a href="https://www.nhs.uk/health-a-to-z/" target="_blank" rel="noopener noreferrer">NHS Health A to Z</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="register" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">REGISTRATION</p>
+        <h2>Register for a health topic</h2>
+        <p>This form is only a demonstration of custom HTML/CSS/JavaScript validation.</p>
+      </div>
+
+      <div class="form-wrapper">
+        <form id="registrationForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full name <span>*</span></label>
+              <input type="text" id="fullName" name="fullName" autocomplete="name" placeholder="Juan Dela Cruz" required>
+              <small class="error" id="fullNameError"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Sample email <span>*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="student@example.com" required>
+              <small class="error" id="emailError"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="grade">Grade level <span>*</span></label>
+              <select id="grade" name="grade" required>
+                <option value="">Select grade level</option>
+                <option>Grade 7</option>
+                <option>Grade 8</option>
+                <option>Grade 9</option>
+                <option>Grade 10</option>
+                <option>Grade 11</option>
+                <option>Grade 12</option>
+              </select>
+              <small class="error" id="gradeError"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Preferred health topic <span>*</span></label>
+              <select id="topic" name="topic" required>
+                <option value="">Select a topic</option>
+                <option>Healthy Sleep</option>
+                <option>Physical Activity</option>
+                <option>Hydration</option>
+                <option>Hand Hygiene</option>
+              </select>
+              <small class="error" id="topicError"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Optional learning goal</label>
+            <textarea id="message" name="message" rows="4" maxlength="250"
+              placeholder="What would you like to learn about?"></textarea>
+            <small class="character-count"><span id="charCount">0</span>/250</small>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" id="academicUse" required>
+            <span>I understand this is an academic demonstration and I should use fictional/sample information. <b>*</b></span>
+          </label>
+          <small class="error" id="academicUseError"></small>
+
+          <button class="button primary submit-button" type="submit">Submit Registration</button>
+
+          <div id="confirmation" class="confirmation" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Academic project information</h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <h3>HealthWise Student Project</h3>
+          <p>Fictional contact details for classroom demonstration only.</p>
+          <p><strong>Email:</strong> healthwise@example.edu</p>
+          <p><strong>Location:</strong> School Health Learning Center</p>
+        </div>
+        <div class="source-note">
+          <h3>Source credits</h3>
+          <p>
+            General health information is based on public educational resources
+            from the World Health Organization (WHO), Centers for Disease Control
+            and Prevention (CDC), and NHS.
+          </p>
+          <p class="small">No real patient information is requested or stored by this demonstration website.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 HealthWise — School Academic Demonstration</p>
+    <p>General information only • Not medical advice • Use fictional data</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
